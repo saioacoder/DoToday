@@ -1,0 +1,61 @@
+.todo_listItem {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  cursor: grab;
+  display: flex;
+  opacity: 1;
+  padding: 0 20px;
+  transition: all 0.3s;
+}
+
+.todo_listItem label {
+  cursor: grab;
+  flex-grow: 1;
+  margin-left: 10px;
+  padding: 17px 0;
+}
+
+.todo_listItem span {
+  background: #369cec;
+  border-radius: 3px;
+  color: white;
+  cursor: grab;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin: 0 15px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.todo_listItem span.priority_1 {
+  background: #a5659f;
+}
+
+.todo_listItem span.priority_2 {
+  background: #d64173;
+}
+
+.todo_listItem button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 0;
+  transition: all 0.2s;
+}
+
+.todo_listItem button:hover {
+  transform: rotate(90deg);
+}
+
+.todo_listItem.completed {
+  opacity: 0.4;
+}
+
+.todo_listItem.dragged {
+  box-shadow: 0 0 15px 4px #0000006b;
+  cursor: grabbing;
+  transform: rotate(1deg) scale(1.1);
+}
+/*# sourceMappingURL=TodoListItem.css.map */

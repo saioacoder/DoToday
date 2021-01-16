@@ -1,0 +1,46 @@
+header .lang_menu {
+  text-align: center;
+}
+
+header .lang_menu button {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0;
+  border-radius: 0 0 5px 5px;
+  color: #5791DB;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 7px;
+  padding: 16px 10px 6px;
+  position: relative;
+  top: -10px;
+  transition: all 0.2s;
+}
+
+header .lang_menu button:not(.sel):hover {
+  background-color: white;
+  top: 0;
+}
+
+header .lang_menu button.sel {
+  background-color: white;
+  cursor: default;
+}
+
+header h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: normal;
+  letter-spacing: 10px;
+  margin: 50px 0 40px;
+  padding-left: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header h1 span {
+  font-weight: bold;
+  position: relative;
+  top: -6px;
+}
+/*# sourceMappingURL=Header.css.map */
